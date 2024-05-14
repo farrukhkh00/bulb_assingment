@@ -1,0 +1,32 @@
+body {
+    margin: auto;   
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(102, 61, 0) 3%, rgba(75, 110, 10, 0.356) 38%, rgba(143, 93, 0, 0.39) 68%, rgba(3, 76, 99, 0.418) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+img{
+    width: 200px;
+    height: 350px;
+    margin-left: 40%;
+}
+button{
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+}
+
